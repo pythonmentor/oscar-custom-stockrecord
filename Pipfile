@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.2"
+django-extensions = "*"
+django-environ = "*"
+pysolr = "*"
+argon2-cffi = "*"
+wagtail = "*"
+django-oscar = {extras = ["sorl-thumbnail"], version = "*"}
+pycountry = "*"
+
+[dev-packages]
+django-debug-toolbar = "*"
+psycopg = {extras = ["binary"], version = "*"}
+ruff = "*"
+whoosh = "*"
+
+[requires]
+python_version = "3.12"

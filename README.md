@@ -1,0 +1,1 @@
+# Projet de démarrage avec django-oscar
